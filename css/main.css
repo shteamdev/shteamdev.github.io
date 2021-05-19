@@ -314,17 +314,38 @@ section {
 }
 
 .social-btn {
+    width: 200px;
     border: 2px solid #242e33;
     border-radius: 4px;
     padding: 10px 40px;
     margin: 10px 30px;
     display: inline-block;
     vertical-align: middle;
+    transition: .2s linear;
 }
 
 .social-btn i {
-    color: #242e33;
     font-size: 40px;
+    color: #242e33;
+    transition: .2s linear;
+}
+
+.social-btn p {
+    display: none;
+    transition: .2s linear;
+}
+
+.social-btn:hover p {
+    display: block;
+    color: #ddd;
+}
+
+.social-btn:hover {
+    background: #242e33;
+}
+
+.social-btn:hover i {
+    color: #ddd;
 }
 
 .whoami-content {
