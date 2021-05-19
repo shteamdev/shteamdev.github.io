@@ -219,6 +219,13 @@ section {
     margin-top: 20px;
 }
 
+.skh2 {
+    margin-top: 40px;
+    display: center;
+    position: relative;
+    left: calc(50% - 33px);
+}
+
 .skills {
     margin-top: 40px;
     display: flex;
