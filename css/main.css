@@ -288,7 +288,7 @@ section {
 }
 
 .dsmax:after {
-    width: 60%;
+    width: 65%;
 }
 
 .ae:after {
@@ -331,20 +331,24 @@ section {
 }
 
 .social-btn p {
-    display: none;
+    font-size: 16px;
+    color: #242e33;
     transition: .2s linear;
 }
 
 .social-btn:hover p {
-    display: block;
+    font-size: 21px;
     color: #ddd;
 }
 
 .social-btn:hover {
+    padding: 20px 40px;
+    width: 210px;
     background: #242e33;
 }
 
 .social-btn:hover i {
+    font-size: 45px;
     color: #ddd;
 }
 
